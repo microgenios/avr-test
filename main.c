@@ -3,7 +3,7 @@
  * Em F_CPU é atribuido o valor da frequência do oscilador.
  */
 #define F_CPU 32000000UL //int -> 16bits -> UL -> 32bits
-
+#include <complex.h>
 /**
  * Inclui as definições dos registrados do ATMEGA328p ou ATMEGA2560;
  */
