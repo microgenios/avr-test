@@ -7,8 +7,8 @@
 /**
  * Inclui as definições dos registrados do ATMEGA328p ou ATMEGA2560;
  */
-#include <avr/io.  h>
-
+#include <avr/io.h>
+#include <avr/fenv.h>
 /**
  * Biblioteca que inclui a macro _delay_ms;
  */
