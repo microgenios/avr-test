@@ -2,7 +2,7 @@
  * F_CPU é uma diretiva necessária para utilizar _delay_ms.  
  * Em F_CPU é atribuido o valor da frequência do oscilador.
  */
-#define F_CPU 16000000UL //int -> 16bits -> UL -> 32bits
+#define F_CPU 32000000UL //int -> 16bits -> UL -> 32bits
 
 /**
  * Inclui as definições dos registrados do ATMEGA328p ou ATMEGA2560;
